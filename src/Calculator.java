@@ -1,6 +1,6 @@
 public class Calculator {
-    private int firstNumber;
-    private int secondNumber;
+    private float firstNumber;
+    private float secondNumber;
 
     private AbstractOperation operation;
 
@@ -15,11 +15,11 @@ public class Calculator {
         this.operation = operation;
     }
 
-    public void setFirstNumber(int firstNumber) {
+    public void setFirstNumber(float firstNumber) {
         this.firstNumber = firstNumber;
     }
 
-    public void setSecondNumber(int secondNumber) {
+    public void setSecondNumber(float secondNumber) {
         this.secondNumber = secondNumber;
     }
 

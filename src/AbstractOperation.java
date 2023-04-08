@@ -1,3 +1,3 @@
 public abstract class AbstractOperation {
-    public abstract double operate(int firstNumber, int secondNumber);
+    public abstract double operate(float firstNumber, float secondNumber);
 }
