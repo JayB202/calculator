@@ -1,6 +1,6 @@
 public class Calculator {
 
-    public double calculator (String operator, int firstNumber, int secondNumber){
+    public double calculate (String operator, int firstNumber, int secondNumber){
         double answer = 0;
         if(operator.equals("+")){
             answer = firstNumber + secondNumber;
